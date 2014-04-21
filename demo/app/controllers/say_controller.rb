@@ -1,10 +1,9 @@
 class SayController < ApplicationController
   def hello
-	@files = Dir.glob('*')
+    @Time = Time.now
   end
 
   def goodbye
-	@time = Time.now
-	@files = Dir.glob('*')
+    @Time = Time.now
   end
 end

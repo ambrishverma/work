@@ -29,9 +29,9 @@ class ProductsController < ApplicationController
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @product }
+        format.json { render :show, status: :created, location: @product }
       else
-        format.html { render action: 'new' }
+        format.html { render :new }
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
@@ -43,9 +43,9 @@ class ProductsController < ApplicationController
     respond_to do |format|
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
-        format.json { head :no_content }
+        format.json { render :show, status: :ok, location: @product }
       else
-        format.html { render action: 'edit' }
+        format.html { render :edit }
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
