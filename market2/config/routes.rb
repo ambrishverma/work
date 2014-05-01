@@ -16,6 +16,10 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 Market2::Application.routes.draw do
+  resources :line_items
+
+  resources :carts
+
   get "store/index"
 
   resources :products
