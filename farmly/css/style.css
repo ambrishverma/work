@@ -1,0 +1,96 @@
+body {
+	background-image: url("../images/farmly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 0px auto;
+
+}
+
+#login-wrapper{
+	width: 80%;
+	height: 1000px;
+	margin: 0px auto;
+	background-color: white;
+}
+
+.site-header {
+	height: 100px;
+	min-height: 100px;
+	position: relative;
+	padding: 20px 20px 20px 150px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.site-header h1 {
+	color: #D28B41;
+	font-family: "Georgia";
+	font-style: italic;
+	font-size: 55px;
+	width: 60%;
+	float: left;
+}
+
+.site-header p1 {
+	color: white;
+	width: 20%;
+	font-size: 17px;
+	float: right;
+	margin-top: 50px;
+}
+
+.tag-line {
+	color: White;
+	font-family: "ITC Arecibo", "arial", "helvetica";
+	font-size: 27px;
+	font-weight: normal;
+	text-transform: uppercase;
+	height: 400px;
+	width: 40%;
+	position: relative;
+	margin: 10px 20px 40px 20px;
+	padding: 40px 20px 40px 20px;
+	vertical-align: center;
+	text-align: center;
+	word-spacing: 10px;
+	white-space: 10px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#customer-options {
+	background-color: #FBFBFA;
+	color: blue solid;
+	width: 350px;
+	height: 400px;
+	vertical-align: center;
+	border-style: none;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.6;
+	float: right;
+}
+	
+h2:hover {
+	background-color: #b2ff99;
+	color: black;
+}	
+
+#login-body {
+	background-color: #FBFBFA;
+	color: blue solid;
+	width: 500px;
+	height: 700px;
+	vertical-align: center;
+	border-style: none;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.6;
+	float: right;
+}
